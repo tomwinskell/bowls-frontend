@@ -2,6 +2,7 @@
 import { css } from '@emotion/react';
 import Content from '../components/Content';
 
+
 const divStyle = css({
   padding: '1rem',
 });

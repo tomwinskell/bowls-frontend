@@ -1,20 +1,20 @@
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react';
 import image from '../images/bowls.jpeg';
-import Box from '@mui/material/Box';
 
-export default function FullWidthImage({
-  content,
-}: {
-  content: React.ReactNode;
-}) {
-  return (
-    <Box
-      sx={{
-        backgroundImage: `url(${image})`,
-        backgroundSize: 'cover',
-        height: '400px',
-      }}
-    >
-      {content}
-    </Box>
-  );
+const container = css({
+  backgroundImage: `url(${image})`,
+  backgroundSize: 'cover',
+  height: '400px',
+  display: 'flex',
+  justifyContent: 'end',
+  alignContent: 'end',
+});
+
+interface ContentProps {
+  children: React.ReactNode;
+}
+
+export default function FullWidthImage({ children }: ContentProps) {
+  return <div css={container}>{children}</div>;
 }
