@@ -17,6 +17,7 @@ export default function App() {
       <Navigation />
       <main css={mainContent}>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/bowls-frontend" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/join" element={<Join />} />
