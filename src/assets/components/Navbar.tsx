@@ -21,14 +21,19 @@ const nav = css({
   alignItems: 'center',
   justifyContent: 'space-between',
   position: 'relative',
-  padding: '1rem',
-  backgroundColor: 'blue',
+  paddingRight: 'clamp(1rem, 0.6479rem + 1.5023vw, 2rem)',
+  paddingLeft: 'clamp(1rem, 0.6479rem + 1.5023vw, 2rem)',
+  backgroundColor: '#1F509A',
   color: 'white',
+  [device.mobile]: {
+    paddingTop: '.7rem',
+    paddingBottom: '.7rem',
+  },
 });
 
 const navMenu = (showMenu: boolean) =>
   css({
-    background: 'blue',
+    backgroundColor: '#1F509A',
     boxSizing: 'border-box',
     [device.mobile]: {
       display: 'flex',
@@ -39,7 +44,7 @@ const navMenu = (showMenu: boolean) =>
       zIndex: '1',
       left: '0',
       top: '0',
-      backgroundColor: 'rgba(0,0,0, 0.95)',
+      backgroundColor: 'rgb(10, 57, 129, 0.9)',
       overflow: 'hidden',
       transition: '0.5s',
     },
@@ -68,6 +73,7 @@ const navLink = css({
   textDecoration: 'none',
   color: 'white',
   fontFamily: 'Noto Sans Variable, sans-serif',
+  fontSize: '1rem',
 });
 
 const navItem = css({

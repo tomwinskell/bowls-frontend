@@ -5,7 +5,7 @@ import { css } from '@emotion/react';
 const h1Style = css({
   fontFamily: 'Noto Sans Variable, sans-serif',
   letterSpacing: '-.02em',
-  fontSize: '2.5rem',
+  fontSize: '3rem',
   textAlign: 'center',
   marginTop: '100px'
 });
