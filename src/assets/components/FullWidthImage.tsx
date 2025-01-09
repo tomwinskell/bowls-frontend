@@ -7,16 +7,14 @@ export default function FullWidthImage({
   content: React.ReactNode;
 }) {
   return (
-    <>
-      <Box
-        sx={{
-          backgroundImage: `url(${image})`,
-          backgroundSize: 'cover',
-          height: '400px',
-        }}
-      >
-        {content}
-      </Box>
-    </>
+    <Box
+      sx={{
+        backgroundImage: `url(${image})`,
+        backgroundSize: 'cover',
+        height: '400px',
+      }}
+    >
+      {content}
+    </Box>
   );
 }
