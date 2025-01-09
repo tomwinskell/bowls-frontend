@@ -5,7 +5,7 @@ import { NavLink } from 'react-router';
 import { useState } from 'react';
 import '@fontsource-variable/noto-sans';
 
-const pages = ['Home', 'About', 'Contact'];
+const pages = ['Home', 'Join', 'Contact'];
 
 const container = css({
   position: 'fixed',
@@ -21,10 +21,9 @@ const nav = css({
   alignItems: 'center',
   justifyContent: 'space-between',
   position: 'relative',
-  paddingRight: 'clamp(1rem, 0.6479rem + 1.5023vw, 2rem)',
-  paddingLeft: 'clamp(1rem, 0.6479rem + 1.5023vw, 2rem)',
-  backgroundColor: '#1F509A',
-  color: 'white',
+  padding: '1rem clamp(1rem, 0.6479rem + 1.5023vw, 2rem)',
+  backgroundColor: 'var(--blue)',
+  color: 'var(--winter)',
   [device.mobile]: {
     paddingTop: '.7rem',
     paddingBottom: '.7rem',
@@ -44,7 +43,7 @@ const navMenu = (showMenu: boolean) =>
       zIndex: '1',
       left: '0',
       top: '0',
-      backgroundColor: 'rgb(10, 57, 129, 0.9)',
+      backgroundColor: 'var(--navy-transparent)',
       overflow: 'hidden',
       transition: '0.5s',
     },
@@ -71,7 +70,7 @@ const navList = css({
 
 const navLink = css({
   textDecoration: 'none',
-  color: 'white',
+  color: 'var(--winter)',
   fontFamily: 'Noto Sans Variable, sans-serif',
   fontSize: '1rem',
 });

@@ -7,8 +7,10 @@ const container = css({
   backgroundSize: 'cover',
   height: '400px',
   display: 'flex',
-  justifyContent: 'end',
-  alignContent: 'end',
+  justifyContent: 'center',
+  alignItems: 'center',
+  width: '100vw',
+  overflow: 'hidden',
 });
 
 interface ContentProps {

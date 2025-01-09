@@ -7,7 +7,8 @@ const h1Style = css({
   letterSpacing: '-.02em',
   fontSize: '3rem',
   textAlign: 'center',
-  marginTop: '100px'
+  marginTop: '100px',
+  color: 'var(--navy)',
 });
 
 export default function Heading() {
