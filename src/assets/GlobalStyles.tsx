@@ -7,6 +7,7 @@ const GlobalStyles = () => (
       /* Color and font variables */
       :root {
         --winter: rgb(212, 235, 248);
+        --winter-transparent: rgb(212, 235, 248, 0.6);
         --blue: rgb(31, 80, 154);
         --navy: rgb(10, 57, 129);
         --navy-transparent: rgb(10, 57, 129, 0.95);

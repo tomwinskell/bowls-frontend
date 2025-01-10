@@ -4,9 +4,8 @@ import Content from '../components/Content';
 
 const divStyle = css({
   padding: '1rem',
-  'p': {
-    margin: '1rem 0'
-  }
+  display: 'flex',
+  justifyContent: 'center',
 });
 interface ContentProps {
   children: React.ReactNode;
