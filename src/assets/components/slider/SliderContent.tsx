@@ -14,6 +14,8 @@ const slideStyle = {
       p: {
         margin: '2rem 0',
         padding: '.8rem 2.5rem',
+        textAlign: 'center',
+        textWrap: 'balance',
       },
     }),
   image: css({

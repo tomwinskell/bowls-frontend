@@ -32,7 +32,7 @@ const spanLeft = css({
   marginLeft: '10px',
 });
 const spanRight = css({
-  marginLeft: '11px',
+  marginLeft: '12px',
 });
 
 interface ArrowsProps {
