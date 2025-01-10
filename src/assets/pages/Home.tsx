@@ -1,4 +1,5 @@
 /** @jsxImportSource @emotion/react */
+import Slider from '../components/slider/Slider';
 import Body from '../layouts/Body';
 import Header from '../layouts/Header';
 
@@ -31,6 +32,7 @@ export default function Home() {
           Sundays from 10am to 12 noon and cost £1 per member and £2.50 for
           visitors Again all welcome.
         </p>
+        <Slider />
       </Body>
     </>
   );

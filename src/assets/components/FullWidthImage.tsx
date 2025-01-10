@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import image from '../images/bowls.jpeg';
+import image from '../images/bowls.jpg';
 
 const container = css({
   backgroundImage: `url(${image})`,
