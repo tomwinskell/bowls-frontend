@@ -1,12 +1,10 @@
 /** @jsxImportSource @emotion/react */
 import Slider from '../components/slider/Slider';
 import Body from '../layouts/Body';
-import Header from '../layouts/Header';
 
 export default function Home() {
   return (
     <>
-      <Header />
       <Body>
         <p>
           Mundesley Haig Bowls Club is an outdoor only bowls club in Mundesley

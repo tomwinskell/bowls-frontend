@@ -1,6 +1,4 @@
 /** @jsxImportSource @emotion/react */
-
-import React from 'react';
 import '@fontsource-variable/noto-sans';
 import { css } from '@emotion/react';
 
