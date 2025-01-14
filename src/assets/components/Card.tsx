@@ -17,6 +17,11 @@ const cardStyle = {
   cardSubtitle: css({ marginBottom: '1.5rem' }),
   cardText: css({}),
   cardLink: css({
+    '&: hover': {
+      color: 'var(--navy)',
+      backgroundColor: 'var(--winter)',
+      transition: '0.5s',
+    },
     backgroundColor: 'var(--orange)',
     borderRadius: '20px',
     marginTop: '1.5rem',

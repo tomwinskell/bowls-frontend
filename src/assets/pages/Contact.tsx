@@ -16,12 +16,19 @@ const formStyle = css({
     marginBottom: '1rem',
   },
   '& button': {
+    cursor: 'pointer',
     fontSize: '1rem',
     borderRadius: '20px',
     border: 'none',
-    backgroundColor: 'var(--orange)',
-    padding: '.5rem 2rem',
+    backgroundColor: 'var(--navy)',
+    padding: '.6rem 2rem',
     width: '100%',
+    color: 'var(--winter)',
+    '&: hover': {
+      color: 'var(--winter)',
+      backgroundColor: 'var(--orange)',
+      transition: '0.5s',
+    },
   },
 });
 
