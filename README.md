@@ -86,8 +86,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 1](path/to/screenshot1.png)  
-![Screenshot 2](path/to/screenshot2.png)
+![Screenshot 1](./src/assets/images/screenshot.jpeg)  
+![Screenshot 2](./src/assets/images/screenshot_mobile.jpeg)
 
 ### Links
 
