@@ -39,8 +39,6 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
-      - name: Pass Secrets to Env
-        run: node -e 'console.log(process.env.EMAIL_JS)'
         env:
           EMAIL_JS: ${{ secrets.EMAIL_JS }}
       - name: Setup Pages
