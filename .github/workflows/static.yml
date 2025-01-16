@@ -40,7 +40,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          EMAIL_JS: ${{ secrets.EMAIL_JS }}
+          VITE_EMAIL_JS: ${{ secrets.EMAIL_JS }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
