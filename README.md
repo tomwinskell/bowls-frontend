@@ -86,8 +86,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot 1](path/to/screenshot1.png)  
-![Screenshot 2](path/to/screenshot2.png)
+<div style='display: flex; flex-direction: row;'>
+  <img src='./src/assets/images/screenshot.jpeg' height='500px'/>
+  <img src='./src/assets/images/screenshot_mobile.jpeg' height='500px'/>
+</div>
 
 ### Links
 
