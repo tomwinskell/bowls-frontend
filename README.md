@@ -57,7 +57,7 @@ Make sure you have the following installed on your machine:
 4. **Start the Development Server**  
    Run the application in development mode:
    ```bash
-   npm start
+   npm run dev
    ```
    This will start the app and open it in your default web browser.
 
@@ -71,7 +71,7 @@ Make sure you have the following installed on your machine:
 
 ## Troubleshooting
 
-If you encounter issues, ensure you have the latest version of Node.js and the necessary permissions to install dependencies. You can also check for specific errors in the terminal and refer to the [React documentation](https://reactjs.org/docs/getting-started.html).
+If you encounter issues, ensure you have the latest version of Node.js and the necessary permissions to install dependencies. You can also check for specific errors in the terminal and refer to the [Vite docs](https://vitejs.dev/) or [React docs](https://reactjs.org/docs/getting-started.html).
 
 ### Functionality
 
