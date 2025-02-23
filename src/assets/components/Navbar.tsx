@@ -5,7 +5,7 @@ import { NavLink } from 'react-router';
 import { useState } from 'react';
 import '@fontsource-variable/noto-sans';
 
-const pages = ['Home', 'Join', 'Contact'];
+const pages = ['Home', 'Join', 'Fixtures', 'Contact'];
 
 const container = css({
   position: 'fixed',

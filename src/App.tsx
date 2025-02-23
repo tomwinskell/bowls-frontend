@@ -7,6 +7,7 @@ import Contact from './assets/pages/Contact';
 import Join from './assets/pages/Join';
 import Footer from './assets/layouts/Footer';
 import Header from './assets/layouts/Header';
+import Fixtures from './assets/pages/Fixtures';
 
 const mainContent = {
   width: '100vw',
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/bowls-frontend" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/join" element={<Join />} />
+          <Route path="/fixtures" element={<Fixtures />} />
           <Route path="/contact" element={<Contact />} />
           {/* Define other routes that you need*/}
         </Routes>
